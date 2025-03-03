@@ -26,8 +26,8 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@anandrelocation.com', 'Sai Computer Solution'); 
-$mail->addReplyTo('info@anandrelocation.com', 'Test Email'); 
+$mail->setFrom('info@madhavaircon.co.in', 'Madhav Aircon Repair Solution'); 
+$mail->addReplyTo('info@madhavaircon.co.in', 'Test Email'); 
  
 // Add a recipient 
 $mail->addAddress('rohitpancholi14510@gmail.com'); 
@@ -62,7 +62,7 @@ $mail->headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 if(!$mail->send()){ ?>
     <script>
     alert("Message could not be sent");
-    window.location.href="https://anandrelocation.com/thank-you.html";
+    window.location.href="https://madhavaircon.co.in/thank-you.html";
     </script>
     // 
     <?php
@@ -74,7 +74,7 @@ if(!$mail->send()){ ?>
              
             //   if( $_GET['status'] == 'success') {
                 //  alert("Mail Send Successfully");
-                 window.location.href="https://anandrelocation.com/thank-you.html";
+                 window.location.href="https://madhavaircon.co.in/thank-you.html";
             //   }
             //   else{
             //       echo 'alert("no good");';
