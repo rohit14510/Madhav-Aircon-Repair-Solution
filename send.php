@@ -30,7 +30,7 @@ $mail->setFrom('info@madhavaircon.co.in', 'Madhav Aircon Repair Solution');
 $mail->addReplyTo('info@madhavaircon.co.in', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('rohitpancholi14510@gmail.com'); 
+$mail->addAddress('marsgurugram@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
@@ -49,7 +49,7 @@ $mailContent = '
     <p>Email :'.$email.'</p> 
     <p>Phone :'.$phone.'</p> 
     <p>Subject :'.$subject.'</p> 
-    <p>Message :'.$message.'</p> 
+    <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
     <p>Madhav Aircon Repair Solution</p>';  
 // $mailContent = "Name : ".$name."\n"."Subject : ".$subject."\n"."Email : ".$email."\n"."Mbile : ".$mobile."\n"."Message :".$message; 
